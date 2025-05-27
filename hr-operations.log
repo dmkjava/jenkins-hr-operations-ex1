@@ -1,77 +1,15 @@
-2025-05-27T21:31:49.110+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 8592 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
-2025-05-27T21:31:49.129+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-27T21:31:49.271+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-05-27T21:31:49.283+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-05-27T21:31:52.566+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-27T21:31:52.596+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-27T21:31:52.597+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-27T21:31:52.693+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-27T21:31:52.694+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3409 ms
-2025-05-27T21:31:53.246+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-27T21:31:54.048+05:30  WARN 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-05-27T21:31:54.098+05:30  WARN 8592 --- [jenkins-hr-operations-ex1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-05-27T21:31:54.151+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-05-27T21:31:54.224+05:30 ERROR 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8082 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
-
-2025-05-27T21:37:45.299+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 10816 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
-2025-05-27T21:37:45.318+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-27T21:37:45.447+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-05-27T21:37:45.448+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-05-27T21:37:48.519+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-27T21:37:48.550+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-27T21:37:48.550+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-27T21:37:48.667+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-27T21:37:48.675+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3224 ms
-2025-05-27T21:37:49.209+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-27T21:37:50.031+05:30  WARN 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-05-27T21:37:50.074+05:30  WARN 10816 --- [jenkins-hr-operations-ex1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-05-27T21:37:50.139+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-05-27T21:37:50.188+05:30 ERROR 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8082 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
-
-2025-05-27T21:39:48.963+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 25180 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
-2025-05-27T21:39:48.970+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-27T21:39:49.085+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-05-27T21:39:49.085+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-05-27T21:39:52.194+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-27T21:39:52.226+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-27T21:39:52.227+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-27T21:39:52.338+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-27T21:39:52.341+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3254 ms
-2025-05-27T21:39:52.923+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-27T21:39:53.701+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-05-27T21:39:53.788+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
-2025-05-27T21:39:53.823+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 5.813 seconds (process running for 6.871)
-2025-05-27T21:40:12.988+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-05-27T21:40:12.989+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-05-27T21:40:12.994+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-05-27T21:40:14.276+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 957 ms
-2025-05-27T21:40:36.335+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-4] c.h.o.c.HROperationsControllerV3         : Hi, I am from getAllEmployees
-2025-05-27T21:40:36.336+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-4] c.h.o.c.HROperationsControllerV3         : GET
+2025-05-28T01:31:09.186+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-28T01:31:09.537+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28T01:31:09.598+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-28T01:31:10.044+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 25180 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
+2025-05-28T01:31:10.061+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-28T01:31:10.852+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-05-28T01:31:10.862+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-28T01:31:10.864+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-28T01:31:11.067+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-28T01:31:11.068+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2025-05-28T01:31:11.332+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-28T01:31:11.670+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-28T01:31:11.876+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-05-28T01:31:11.890+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 1.986 seconds (process running for 13884.938)
+2025-05-28T01:31:11.897+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
