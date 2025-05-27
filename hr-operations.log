@@ -1,53 +1,77 @@
-2025-05-20T00:25:50.531+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 21012 (D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T00:25:50.538+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T00:25:50.684+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-05-20T00:25:50.697+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-05-20T00:25:53.855+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-20T00:25:53.888+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-20T00:25:53.889+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-20T00:25:53.988+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-20T00:25:53.993+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3293 ms
-2025-05-20T00:25:54.731+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T00:25:55.918+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-05-20T00:25:56.541+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
-2025-05-20T00:25:56.598+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 8.325 seconds (process running for 10.817)
-2025-05-20T00:28:44.571+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-05-20T00:28:44.582+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-05-20T00:28:44.599+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-05-20T00:28:44.830+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 21012 (D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T00:28:44.832+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T00:28:45.768+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-20T00:28:45.774+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-20T00:28:45.778+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-20T00:28:45.833+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-20T00:28:45.835+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
-2025-05-20T00:28:45.953+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T00:28:46.152+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-05-20T00:28:46.192+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
-2025-05-20T00:28:46.224+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 1.503 seconds (process running for 180.442)
-2025-05-20T00:28:46.235+05:30  INFO 21012 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-05-20T00:29:18.346+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 20612 (D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T00:29:18.354+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T00:29:18.469+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-05-20T00:29:18.470+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-05-20T00:29:21.409+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
-2025-05-20T00:29:21.445+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-20T00:29:21.446+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-05-20T00:29:21.541+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-20T00:29:21.544+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3072 ms
-2025-05-20T00:29:22.117+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T00:29:22.911+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-05-20T00:29:22.988+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
-2025-05-20T00:29:23.019+05:30  INFO 20612 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 5.66 seconds (process running for 6.547)
-2025-05-20T00:31:18.778+05:30  INFO 31752 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Starting HrOperationsApplicationTests using Java 21.0.5 with PID 31752 (started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T00:31:18.782+05:30  INFO 31752 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T00:31:21.753+05:30  INFO 31752 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T00:31:22.565+05:30  INFO 31752 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Started HrOperationsApplicationTests in 4.502 seconds (process running for 7.18)
-2025-05-20T01:07:13.317+05:30  INFO 29516 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Starting HrOperationsApplicationTests using Java 21.0.5 with PID 29516 (started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T01:07:13.332+05:30  INFO 29516 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T01:07:16.521+05:30  INFO 29516 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T01:07:17.447+05:30  INFO 29516 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Started HrOperationsApplicationTests in 5.029 seconds (process running for 7.295)
-2025-05-20T01:08:13.163+05:30  INFO 25288 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Starting HrOperationsApplicationTests using Java 21.0.5 with PID 25288 (started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\aws-elastic-beanstack-hr-operations-in-memory-data-ex1)
-2025-05-20T01:08:13.166+05:30  INFO 25288 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2025-05-20T01:08:16.482+05:30  INFO 25288 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-05-20T01:08:17.534+05:30  INFO 25288 --- [aws-elastic-beanstack-hr-operations-in-memory-data-ex1] [main] c.h.o.HrOperationsApplicationTests       : Started HrOperationsApplicationTests in 5.173 seconds (process running for 7.203)
+2025-05-27T21:31:49.110+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 8592 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
+2025-05-27T21:31:49.129+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T21:31:49.271+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27T21:31:49.283+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27T21:31:52.566+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-05-27T21:31:52.596+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T21:31:52.597+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-27T21:31:52.693+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T21:31:52.694+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3409 ms
+2025-05-27T21:31:53.246+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-27T21:31:54.048+05:30  WARN 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-27T21:31:54.098+05:30  WARN 8592 --- [jenkins-hr-operations-ex1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-27T21:31:54.151+05:30  INFO 8592 --- [jenkins-hr-operations-ex1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T21:31:54.224+05:30 ERROR 8592 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2025-05-27T21:37:45.299+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 10816 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
+2025-05-27T21:37:45.318+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T21:37:45.447+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27T21:37:45.448+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27T21:37:48.519+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-05-27T21:37:48.550+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T21:37:48.550+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-27T21:37:48.667+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T21:37:48.675+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3224 ms
+2025-05-27T21:37:49.209+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-27T21:37:50.031+05:30  WARN 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-27T21:37:50.074+05:30  WARN 10816 --- [jenkins-hr-operations-ex1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-27T21:37:50.139+05:30  INFO 10816 --- [jenkins-hr-operations-ex1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T21:37:50.188+05:30 ERROR 10816 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2025-05-27T21:39:48.963+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Starting HrOperationsApplication using Java 21.0.5 with PID 25180 (D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1\target\classes started by MuraliKrishna in D:\MyPractice_2025\java\sts\rest_api_ws\jenkins-hr-operations-ex1)
+2025-05-27T21:39:48.970+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T21:39:49.085+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27T21:39:49.085+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27T21:39:52.194+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-05-27T21:39:52.226+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T21:39:52.227+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-27T21:39:52.338+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T21:39:52.341+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3254 ms
+2025-05-27T21:39:52.923+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-27T21:39:53.701+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-27T21:39:53.788+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-05-27T21:39:53.823+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [restartedMain] c.hr.operations.HrOperationsApplication  : Started HrOperationsApplication in 5.813 seconds (process running for 6.871)
+2025-05-27T21:40:12.988+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T21:40:12.989+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T21:40:12.994+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-27T21:40:14.276+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 957 ms
+2025-05-27T21:40:36.335+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-4] c.h.o.c.HROperationsControllerV3         : Hi, I am from getAllEmployees
+2025-05-27T21:40:36.336+05:30  INFO 25180 --- [jenkins-hr-operations-ex1] [http-nio-8082-exec-4] c.h.o.c.HROperationsControllerV3         : GET
